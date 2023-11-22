@@ -16,9 +16,3 @@ document.addEventListener("click", function (r) {
     navbarNav.classList.remove("active");
   }
 });
-
-// cta to whatsapp
- const send = document.querySelector('.cta');
- send.addEventListener('click', function () {
-  send.href = "https://api.whatsapp.com/send?phone=081382361995"
-});
